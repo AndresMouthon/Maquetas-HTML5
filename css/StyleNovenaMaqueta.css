@@ -1,0 +1,22 @@
+*{
+    margin: 2px;
+}
+body{
+    background: burlywood;
+}
+.header{
+    background-color: black;
+    width: 99.7%;
+    height: 90px;
+    clear: both;
+}
+.center{
+    background-color: brown;
+    height: 448px;
+    float: left;
+}
+.footer{
+    background-color: black;
+    height: 90px;
+    clear: both;
+}

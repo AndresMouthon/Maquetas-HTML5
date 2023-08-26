@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+body{
+    background: black;
+}
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: fantasy;
+}
+.left,
+.right{
+    height: 330px;
+    overflow: auto;
+}
+.header{
+    height: 90px;
+    grid-area: header;
+    background-color: aliceblue;
+}
+.footer{
+    height: 90px;
+    grid-area: footer;
+    background-color: brown;
+}
+.nav{
+    height: 70px;
+    grid-area: nav;
+    background-color: blueviolet;
+}
+.left{
+    grid-area: left;
+}
+.right{
+    grid-area: right;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header header header"
+    "nav nav nav nav nav nav nav"
+    "left left left right right right right"
+    "footer footer footer footer footer footer footer";
+}

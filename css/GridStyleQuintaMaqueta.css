@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 6px 10px;
+}
+.header{
+    grid-area: header;
+    background-color: aquamarine;
+    height: 50px;
+}
+.center{
+    grid-area: center;
+    background-color:rgb(255, 174, 0);
+    height: 505px;
+}
+.footer{
+    grid-area: footer;
+    background-color: aquamarine;
+    height: 50px;
+}
+.grud-contenedor{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "center"
+    "center";
+}

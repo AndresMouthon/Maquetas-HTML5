@@ -1,0 +1,20 @@
+*{
+    margin: 2px;
+}
+body{
+    background: black;
+}
+.left{
+    background-color: white;
+    position: relative;
+    width: 20%;
+    height: 631px;
+    float: left;
+}
+.right{
+    background-color: white;
+    position: relative;
+    height: 631px;
+    width: 79.4%;
+    float: right;
+}

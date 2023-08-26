@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 2px;
+}
+body{
+    background: black;
+}
+.left{
+    background-color: white;
+    grid-area: left;
+}
+.right{
+    background-color: white;
+    grid-area: right;
+}
+.grid-contenedor{
+    height: 635px;
+    display: grid;
+    grid-template-areas: 
+    "left right right right right";
+}

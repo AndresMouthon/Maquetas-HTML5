@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(34,193,195);
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'left left center center right right'
+    'footer footer footer footer footer footer';
+}
+.left,
+.center,
+.right{
+    height: 300px;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.header{
+    grid-area: header;
+}
+
+.left{
+    grid-area: left;
+}
+
+.center{
+    grid-area: center;
+}
+
+.right{
+    grid-area: right;
+}
